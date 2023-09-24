@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Edit Post{% endblock %}
+
+{% block content %}
+<h2>Update Post Here</h2>
+<a href="{% url 'index' %}">Home</a>
+<a href="{% url 'post_list' %}">Blogs</a>
+<br>
+	<form method="post">
+		{% csrf_token %}
+		{{ form.as_p }}
+
+		<button type="submit">Update</button>
+	</form>
+{% endblock content %}
