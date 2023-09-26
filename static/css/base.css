@@ -3,11 +3,11 @@ body {
 	font-size: 18px;
 }
 
-header {
-	border-bottom: 1px solid #999;
+/*header {
+	border-bottom: 1px solid red;
 	margin-bottom: 2rem;
 	display: flex;
-}
+}*/
 
 
 header h1 a {
